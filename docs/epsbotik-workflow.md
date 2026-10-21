@@ -12,7 +12,7 @@ Lat's default search uses a local model. No hosted indexing, key configuration, 
 
 Read root instructions, applicable nested instructions, binding ADRs, and relevant Lat sections. Create `feature/<topic>` from `main`. Define observable acceptance criteria. Record architecture-level decisions before implementation. Prefer board setup, capabilities, Lua modules, skills, and router rules over core-loop modifications when appropriate.
 
-Keep changes small; update tests and knowledge in the same change. Run the affected-board ESP-IDF build, relevant tests, `python3 tools/epsbotik/check_project.py`, and `lat check`. Frontend changes also require upstream build/typecheck commands. Existing multilingual site changes require aligned translations and site checks. Documentation-only bootstrap does not establish firmware build success.
+Keep changes small; update tests and knowledge in the same change. Run the affected-board ESP-IDF build, relevant tests, `python3 tools/epsbotik/check_project.py`, and `lat check`. Frontend changes also require upstream build/typecheck commands. Existing multilingual site changes require aligned translations and site checks. Documentation-only bootstrap does not establish firmware build success. The tested, qualified StickS3 baseline and its non-portable local prerequisites are recorded in [StickS3 build baseline](sticks3-build-baseline.md).
 
 ## Upstream integration
 

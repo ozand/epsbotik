@@ -6,3 +6,4 @@ This graph describes our downstream project's intent and constraints, alongside 
 - [[architecture]] — inherited runtime boundaries.
 - [[development]] — code, decisions, and upstream integration.
 - [[verification]] — executable repository checks and their limits.
+- [[sticks3-build]] — tested StickS3 build evidence, input requirements, and reproducibility limits.
