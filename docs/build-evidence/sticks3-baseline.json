@@ -1,0 +1,1189 @@
+{
+  "schema": "measured-documentation-evidence-v1",
+  "scope": "sanitized measured build provenance; not a build lock or runtime input format",
+  "source": {
+    "commit": "ce90852b919f4ed86312493f03ca3e00f69c201f",
+    "export": "full repository archive preserving nesting; source repo had no initialized submodules required"
+  },
+  "sdk": {
+    "commit": "735507283d5b2f9fb363a1901172dbd9e847945d",
+    "version": "ESP-IDF v5.5.4",
+    "export": "SDK from existing Git objects; recursively recorded submodule gitlinks below; four patched files verified by hashes. Original build export's exact per-submodule checkout receipt was not retained; current local Git objects confirm expected commits are available.",
+    "patched_files_sha256": {
+      "components/esp_lcd/parl/esp_lcd_panel_io_parl.c": "a37679d4116ab693a597522f04a1a7a190940865fa5982c552bb2652f29522c2",
+      "components/usb/include/usb/usb_types_ch9.h": "127760592a25fc81c7d4230864559100ef66e21484caf8b3287f7cc56e378261",
+      "components/esp_http_client/esp_http_client.c": "21062aaf2fc5295ab6e083d7f49143548f1f3a02d8506d50b9d8d910dfd8781e",
+      "components/esp_http_client/include/esp_http_client.h": "4a9039555af41ace8fb3da0da4b1e3b4b734b180d61641e1debc9826b09bbbdb"
+    },
+    "submodules": {
+      "count": 23,
+      "entries": [
+        {
+          "path": "components/bootloader/subproject/components/micro-ecc/micro-ecc",
+          "gitlink": "24c60e243580c7868f4334a1ba3123481fe1aa48",
+          "recorded_commit_object_available_in_initialized_worktree": true
+        },
+        {
+          "path": "components/bt/controller/lib_esp32",
+          "gitlink": "a348e3fbc75411acd88357af9e1d6a76621c449e",
+          "recorded_commit_object_available_in_initialized_worktree": true
+        },
+        {
+          "path": "components/bt/controller/lib_esp32c2/esp32c2-bt-lib",
+          "gitlink": "1b0f5aac0fcf91ea042c781e6da10a528ca0da03",
+          "recorded_commit_object_available_in_initialized_worktree": true
+        },
+        {
+          "path": "components/bt/controller/lib_esp32c3_family",
+          "gitlink": "ebd6043a8e3c3bbde45ee483895303b9c1229ab5",
+          "recorded_commit_object_available_in_initialized_worktree": true
+        },
+        {
+          "path": "components/bt/controller/lib_esp32c5/esp32c5-bt-lib",
+          "gitlink": "1a570a59b6d694b8829c82555f445d88bf26f295",
+          "recorded_commit_object_available_in_initialized_worktree": true
+        },
+        {
+          "path": "components/bt/controller/lib_esp32c6/esp32c6-bt-lib",
+          "gitlink": "9d05fc931ae771de52de7e4b4c7090f5b3ec0ec4",
+          "recorded_commit_object_available_in_initialized_worktree": true
+        },
+        {
+          "path": "components/bt/controller/lib_esp32h2/esp32h2-bt-lib",
+          "gitlink": "126dbfeec7e7291458ce6ff8f9297e46f8946733",
+          "recorded_commit_object_available_in_initialized_worktree": true
+        },
+        {
+          "path": "components/bt/esp_ble_mesh/lib/lib",
+          "gitlink": "e44762384ed104a0ebc78f134eeba5f3ab648ddc",
+          "recorded_commit_object_available_in_initialized_worktree": true
+        },
+        {
+          "path": "components/bt/host/nimble/nimble",
+          "gitlink": "5c1a43ca3d205c3d5183e57dedce335fb6a81155",
+          "recorded_commit_object_available_in_initialized_worktree": true
+        },
+        {
+          "path": "components/cmock/CMock",
+          "gitlink": "eeecc49ce8af123cf8ad40efdb9673e37b56230f",
+          "recorded_commit_object_available_in_initialized_worktree": true
+        },
+        {
+          "path": "components/esp_coex/lib",
+          "gitlink": "ee5cd79583c02f23e43e62931ffb55f5a4992d0f",
+          "recorded_commit_object_available_in_initialized_worktree": true
+        },
+        {
+          "path": "components/esp_phy/lib",
+          "gitlink": "3d57415af6e4c92eff2c4c3463e20a51d7340aba",
+          "recorded_commit_object_available_in_initialized_worktree": true
+        },
+        {
+          "path": "components/esp_wifi/lib",
+          "gitlink": "b87cce81803b85c3639fb14bac6c24cff6d0fbad",
+          "recorded_commit_object_available_in_initialized_worktree": true
+        },
+        {
+          "path": "components/heap/tlsf",
+          "gitlink": "2867f6883a12920b1969ff9624c0ab0e4185c2ce",
+          "recorded_commit_object_available_in_initialized_worktree": true
+        },
+        {
+          "path": "components/json/cJSON",
+          "gitlink": "c859b25da02955fef659d658b8f324b5cde87be3",
+          "recorded_commit_object_available_in_initialized_worktree": true
+        },
+        {
+          "path": "components/lwip/lwip",
+          "gitlink": "fd432e4ee2cfb7f7f1c7eb7227e0173412e7b84e",
+          "recorded_commit_object_available_in_initialized_worktree": true
+        },
+        {
+          "path": "components/mbedtls/mbedtls",
+          "gitlink": "ffb280bb63c78bfec1e1ab55040671768c85c923",
+          "recorded_commit_object_available_in_initialized_worktree": true
+        },
+        {
+          "path": "components/mqtt/esp-mqtt",
+          "gitlink": "6af4446a48ea7fa54948edc4e62277ed70abb6e1",
+          "recorded_commit_object_available_in_initialized_worktree": true
+        },
+        {
+          "path": "components/openthread/lib",
+          "gitlink": "2e2d91a382ad6387ce77551c6adbb1514db12472",
+          "recorded_commit_object_available_in_initialized_worktree": true
+        },
+        {
+          "path": "components/openthread/openthread",
+          "gitlink": "a12ff0d0f54fd41954b45047fcdd08f302731c5f",
+          "recorded_commit_object_available_in_initialized_worktree": true
+        },
+        {
+          "path": "components/protobuf-c/protobuf-c",
+          "gitlink": "abc67a11c6db271bedbb9f58be85d6f4e2ea8389",
+          "recorded_commit_object_available_in_initialized_worktree": true
+        },
+        {
+          "path": "components/spiffs/spiffs",
+          "gitlink": "0dbb3f71c5f6fae3747a9d935372773762baf852",
+          "recorded_commit_object_available_in_initialized_worktree": true
+        },
+        {
+          "path": "components/unity/unity",
+          "gitlink": "bf560290f6020737eafaa8b5cbd2177c3956c03f",
+          "recorded_commit_object_available_in_initialized_worktree": true
+        }
+      ],
+      "source": "recursive git ls-tree at recorded superproject commit; availability checked against initialized local submodule objects; read-only inventory"
+    }
+  },
+  "tools": {
+    "python": "3.12.14",
+    "idf_component_manager": "2.5.2",
+    "board_manager": "0.6.2",
+    "compiler": "GCC 14.2.0",
+    "host_runtime": "Nix-provided profile; exact store derivation not retained",
+    "cmake": "3.30.2",
+    "ninja": "1.12.1",
+    "bubblewrap": "networkless private namespace; exact version not retained"
+  },
+  "board": {
+    "target": "esp32s3",
+    "id": "m5stack_sticks3",
+    "flash": "8 MB",
+    "partition": "partitions_8MB.csv",
+    "psram": "Octal"
+  },
+  "configuration": {
+    "sdkconfig_sha256": "9c0d8e48c1e8239c9f42c2c8515fcc3ea2e587d25e11d15031008759b516c626",
+    "sdkconfig_content_included": false,
+    "lock": {
+      "historical_source_revision": "345073de68179542c307e303df81e38baadf77f0",
+      "historical_dependencies_lock_sha256": "b8f3e1d062337b87e26f6cdadcac1bb7c5a586d5b1a801a5e182e33e43ab7952",
+      "historical_dependencies_lock_hash_scope": "current local reference file; not a separately retained pristine copy from build time",
+      "runA_lock_sha256": "cd75effe29b3b9776bf5161d380f2f846ea000d42af79387176cd293edae272a",
+      "runB_lock_sha256": "fcb4ff67a46597349401377f02bd94e5713119507d418c68fe023a75e804d455",
+      "canonical_dependency_table_scope": "current local reference lock; non-path entries include registry hashes, local/path dependencies have source=path or source=idf",
+      "canonical_dependency_table": [
+        {
+          "name": "espressif/button",
+          "version": "4.2.2",
+          "component_hash": "7cb7e2944b5828f409af0c92f7fcc0e2d405de09c3325b7ee4a0eba5fb28dfdc",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/cjson",
+          "version": "1.7.19~2",
+          "component_hash": "e788323270d90738662d66fffa910bfe1fba019bba087f01557e70c40485b469",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/cmake_utilities",
+          "version": "0.5.3",
+          "component_hash": "351350613ceafba240b761b4ea991e0f231ac7a9f59a9ee901f751bddc0bb18f",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/esp-dsp",
+          "version": "1.8.2",
+          "component_hash": "ed9ac175b14e0414399a2b33c525579414b5bad19a2a67b12ea212def96f9a98",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/esp_asrc",
+          "version": "1.0.1",
+          "component_hash": "83021b6888ba94966bb3a954d435ca031952ddb7f2b873886bd7a0da94bc1108",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/esp_audio_codec",
+          "version": "2.5.0",
+          "component_hash": "16e2880dbdd5a72264051f750f33a6e5a38fd25621c83e3a32a85a152d2d2643",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/esp_audio_effects",
+          "version": "1.3.0~1",
+          "component_hash": "6ad72ee106e25b07c9ae5b8ec77b566ef8d697473095f1c982e13247005b9ba6",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/esp_audio_render",
+          "version": "1.0.0~2",
+          "component_hash": "ef2e7f153cf13e82c749c920bf68c592c12ef0fecd5624d9c3644c9339f15082",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/esp_board_manager",
+          "version": "0.6.2",
+          "component_hash": "68863a1a161231ad1e02fdd68ef557e95d088abd3a27c24204f8c9c418023534",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/esp_boards",
+          "version": "0.5.3~1",
+          "component_hash": "6d32eb26833922fe6d517165129089d4fe1d973c4fa0e77d5dc06a27257c1e6e",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/esp_codec_dev",
+          "version": "1.6.2",
+          "component_hash": "4779f31a3ba3f9b38aee1afe6ccb9ba8f6108dc3a6e77d39d7d714e9a215371b",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/esp_extractor",
+          "version": "1.0.7",
+          "component_hash": "d2e99ae3e45f2d3b0b35d5615e0ef32d5b813daed6f79253aab94b6e76445086",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/esp_hls_stream",
+          "version": "1.0.4",
+          "component_hash": "0a3aeff8462f7edb0cf68dad10a4fd074de76fd3e57084eacb5db01192394e2c",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/esp_lcd_touch",
+          "version": "1.2.1",
+          "component_hash": "3f85a7d95af876f1a6ecca8eb90a81614890d0f03a038390804e5a77e2caf862",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/esp_lv_decoder",
+          "version": "0.4.3",
+          "component_hash": "331d23c304cea5d1aed0ad3cea7774874dbaeebb2217e8db6bf3cc8485ac9f9f",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/esp_lv_eaf_player",
+          "version": "0.3.0",
+          "component_hash": "6fa8ddc9724f1718a1d5718add878ff6305928e0379e702b395e02d8c208ac5d",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/esp_lv_fs",
+          "version": "1.0.1",
+          "component_hash": "66896007884b817df34c964f9a114fff538ee2674e99fee7159162498b93f94b",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/esp_lvgl_adapter",
+          "version": "0.7.0",
+          "component_hash": "723f6e79a1c95daeadfd36e7272fbe59513c3b6e06446ec4ecda3011dc0c1f51",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/esp_mmap_assets",
+          "version": "2.0.1",
+          "component_hash": "42310c362596de2a37248c2937b1754bc29cd0356b9839e2a77cf791e6bcdde1",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/esp_muxer",
+          "version": "1.2.3",
+          "component_hash": "7de5d869121f8decaf4dd1dcaf0d7ffa9be0e9bd58be55dcf544eac4958a61ef",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/esp_new_jpeg",
+          "version": "1.0.2",
+          "component_hash": "e1e7e6991193c41ed6c9fc386702aa7821433319e7aa9c3147cd3236310cd69c",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/esp_player",
+          "version": "1.0.7",
+          "component_hash": "41ad074df33d2aebcdb88b5f0cf1476c03a454a5e57066863d66f31ada837f16",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/esp_websocket_client",
+          "version": "1.8.0",
+          "component_hash": "dc00233af846f3a744ada283a300e0d586040aadc3ee67361645ecdce4523672",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/freetype",
+          "version": "2.14.3~1",
+          "component_hash": "aa9f7657a69b2b1c1f49044017fc424081d4e0fe6e97834cb43883548d44e3ca",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/gmf_audio",
+          "version": "1.0.1~1",
+          "component_hash": "41371f80510635c1c2cc69b7828b5ced06bfce49e2b34b652830a36a99a0a6b8",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/gmf_core",
+          "version": "1.0.2",
+          "component_hash": "025de674bdfaec7b9d98019f904e91d59318a6ed4e47baef134c136b98a7a745",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/gmf_fft",
+          "version": "1.0.0",
+          "component_hash": "b59451ef2f96d22b80c27a162515b21f1b85954dda434c0b092172164028779d",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/gmf_io",
+          "version": "1.0.0",
+          "component_hash": "aa1f68942e64ca538bb9d01e59d8f7563314c681183959bf62f180fa2b0a3c55",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/i2c_bus",
+          "version": "1.5.2",
+          "component_hash": "483112c1619c54c38d0b734fb25f1678733267858a77b7af2f48cc7db6dbbd84",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/knob",
+          "version": "1.1.0",
+          "component_hash": "b56694054cd34a683ac2a6f3661963ba00b1dab741a4f3bb59ed6666cbc9f3fb",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/led_strip",
+          "version": "3.1.0~1",
+          "component_hash": "097f698887601de00bed7ff58f91b9e074fa1ae1bcf53582034b01191cc88e9f",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/libpng",
+          "version": "1.6.58~2",
+          "component_hash": "d094357a329f78668629d7c9656064b2b0123196eb6d25ca77db3782e0752480",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/lua",
+          "version": "5.5.1",
+          "component_hash": "f75e767cefb57380576a1f136ec60b18999687f5c4213e967344706feda35928",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/mcp-c-sdk",
+          "version": "2.0.1",
+          "component_hash": "58252f2ca194794f11aff0ff559b6c16cc57c0838d99558011c2f95eeae87e00",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/mdns",
+          "version": "1.14.0",
+          "component_hash": "b5b30022c46302eab89c1d2e3b6fb5918a627563a7462f0ee284b22b9a934967",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/media_lib_sal",
+          "version": "1.0.2",
+          "component_hash": "af39cd5a569f9125ae4782609cd60a2449887df675cba2359a426d480bb560d1",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/ramfs",
+          "version": "0.1.0",
+          "component_hash": "0d78f5f369d900ea3012886898589735861b69b316b8a7ac2c5a0f14da5cde6d",
+          "source": "registry"
+        },
+        {
+          "name": "espressif/zlib",
+          "version": "1.3.2~1",
+          "component_hash": "9083cada65f1c9d298ef92266232d071c6f2f335164e2799554b3eae73aedc55",
+          "source": "registry"
+        },
+        {
+          "name": "idf",
+          "version": "5.5.4",
+          "component_hash": null,
+          "source": "idf"
+        },
+        {
+          "name": "lvgl/lvgl",
+          "version": "9.5.0",
+          "component_hash": "184e532558c1c45fefed631f3e235423d22582aafb4630f3e8885c35281a49ae",
+          "source": "registry"
+        }
+      ],
+      "lock_input": "Historical lock copied into disposable app; resolver updated it during successful run; do not treat resulting run lock hash as the historical input hash",
+      "historical_lock_current_reference_copy_sha256": "b8f3e1d062337b87e26f6cdadcac1bb7c5a586d5b1a801a5e182e33e43ab7952",
+      "run_input_comparison": "Current local historical lock hash matches neither post-resolution run lock hash; no pristine copied-input lock snapshot was separately retained, so source equality at run time is not independently provable."
+    },
+    "managed_components": {
+      "source": "historical reference closure at upstream revision 345073de68179542c307e303df81e38baadf77f0; current source snapshot digests below, not contemporaneous run snapshot",
+      "checksum_files": [
+        {
+          "component": "espressif__button",
+          "checksums_sha256": "f8a8f70f0d2d8bc3070bebf292e063392d3f23700e1d94d33ae8be5e1187785e"
+        },
+        {
+          "component": "espressif__cjson",
+          "checksums_sha256": "aa07cb0a25b584460b3dd4119384af41bbec0ddc49c0efa0cbd015cbb439f9d3"
+        },
+        {
+          "component": "espressif__cmake_utilities",
+          "checksums_sha256": "8a8857db28aa1ed552b027319b6c4434c98dc01a6d92cb3004ad4d5a70a4003e"
+        },
+        {
+          "component": "espressif__esp-dsp",
+          "checksums_sha256": "d9d92efbfdbef4720609948959cd8e0b98546eb33fb077bcdfbe85d1e746d734"
+        },
+        {
+          "component": "espressif__esp_asrc",
+          "checksums_sha256": "bd6ff63ee18b0fee50d4bf1ab084cd85e4fb076cacb931e13d674c81dd786643"
+        },
+        {
+          "component": "espressif__esp_audio_codec",
+          "checksums_sha256": "3d5015b429f7c3052b4d1d4fc5a76b78ba35fa67a4a0ec93ffdb5113f1526aeb"
+        },
+        {
+          "component": "espressif__esp_audio_effects",
+          "checksums_sha256": "7b615966f4a05005431cc308e7875e938172d96a0add328ae904967ab480cd47"
+        },
+        {
+          "component": "espressif__esp_audio_render",
+          "checksums_sha256": "0dad2f559f3a315ea74b2277d0c479a8bfe6287b65b26771d16b2487907dd691"
+        },
+        {
+          "component": "espressif__esp_board_manager",
+          "checksums_sha256": "59bed7a4556fecc8bcfaf38bd8a60f9b31126c220cccf65ec1b3882672f96213"
+        },
+        {
+          "component": "espressif__esp_boards",
+          "checksums_sha256": "3188dabddf7150263168415eff4e71cd58886b8b085b9af8bef3831398e9ea9f"
+        },
+        {
+          "component": "espressif__esp_codec_dev",
+          "checksums_sha256": "549328c602f3b603de982cc2b64ff79b6ce595662af80fb458018ed7faffbf9c"
+        },
+        {
+          "component": "espressif__esp_extractor",
+          "checksums_sha256": "2d1ab9c4e98b285a54c682bc64f7b8246491b71c82d08871cc48e0181bca9060"
+        },
+        {
+          "component": "espressif__esp_hls_stream",
+          "checksums_sha256": "3bfee72cb86c47f7d613b6b5ac261a50def3cae558153d4d7a7c702c13767c28"
+        },
+        {
+          "component": "espressif__esp_lcd_touch",
+          "checksums_sha256": "761566314e032a5026c8fc71b6f7b4a483039b4622a4bb1fab13e9c59b63dea0"
+        },
+        {
+          "component": "espressif__esp_lv_decoder",
+          "checksums_sha256": "2af3c3a6bd5df40c3d3ffa4d4304bd74e3ad338a03fe6aafb96cf4b7c642f7f6"
+        },
+        {
+          "component": "espressif__esp_lv_eaf_player",
+          "checksums_sha256": "7a6d842a5861c56df5f7f508fbe76bdff0859373a02ad4eeea3fccaf69c0400c"
+        },
+        {
+          "component": "espressif__esp_lv_fs",
+          "checksums_sha256": "bb20a473ccd85d98306385e50c1f85b23241cdb6e0aec6d0efb68367c35c609a"
+        },
+        {
+          "component": "espressif__esp_lvgl_adapter",
+          "checksums_sha256": "f63764c315911b7baa50101a118f19b090e26d4bfc991c0210bc1b93df4aedeb"
+        },
+        {
+          "component": "espressif__esp_mmap_assets",
+          "checksums_sha256": "d4f3334c31b19f89cbbf845cce05a9495b00be3da0d660aca917adca0fbe0b17"
+        },
+        {
+          "component": "espressif__esp_muxer",
+          "checksums_sha256": "0e497d778b23578202a52a9752c7f3a131fef8cb8775b52541a68bc7aa41c0b0"
+        },
+        {
+          "component": "espressif__esp_new_jpeg",
+          "checksums_sha256": "9649b221fb75b1133223f008930db591df6d39b9247e183f102abecc985bbc68"
+        },
+        {
+          "component": "espressif__esp_player",
+          "checksums_sha256": "ed145a90a931fe4e9d5c078814d1c0f9570cc15270ae773b78f74ddb59b3f2bd"
+        },
+        {
+          "component": "espressif__esp_websocket_client",
+          "checksums_sha256": "4681e4473bc1ec0f2ca2fc1a0e2cffc5d846d82ee06c0b1b6e86ac9bff7b7b89"
+        },
+        {
+          "component": "espressif__freetype",
+          "checksums_sha256": "3cced6e457276890b467d9aa97da17ed0e41dd0bc7415fe6fde2f7dfcedece47"
+        },
+        {
+          "component": "espressif__gmf_audio",
+          "checksums_sha256": "2373ef1eec67e6a991f436480c56ad1ba6c3dc8c2a80322e7d2cfcae881c38f5"
+        },
+        {
+          "component": "espressif__gmf_core",
+          "checksums_sha256": "7b0cd76a7be98f23809f22782dc7c75c12fda4120bf40522c765e96fa04b9c3c"
+        },
+        {
+          "component": "espressif__gmf_fft",
+          "checksums_sha256": "f6ccc8a2fd5be23f3c12d23c6cf6291c597b76be83334ca74d52ed770e9b7196"
+        },
+        {
+          "component": "espressif__gmf_io",
+          "checksums_sha256": "1795a587061f508537254b9f8c936fb62569307537fdca3d53b4b054fb62f82c"
+        },
+        {
+          "component": "espressif__i2c_bus",
+          "checksums_sha256": "db273062f6dd093a73447939c31b6b7bacee67d472dd9c3e0a4e973ffbca7d58"
+        },
+        {
+          "component": "espressif__knob",
+          "checksums_sha256": "e0d2c783d9ad1b94a03bbab3b1439ee18c824c906233aa8fb59ce3d3ded82a9a"
+        },
+        {
+          "component": "espressif__led_strip",
+          "checksums_sha256": "07f656ba34719dfedd4755272179d2cd0a240adb42afd326e90dfb423ab64ef5"
+        },
+        {
+          "component": "espressif__libpng",
+          "checksums_sha256": "2b73808f8a774428bfb141cdb4f44107c06ebbee2a89f824d4228f803c6cd02e"
+        },
+        {
+          "component": "espressif__lua",
+          "checksums_sha256": "c048225667f894393d917aad600a4a0a597a7357125239f626ff5c5c9af59afc"
+        },
+        {
+          "component": "espressif__mcp-c-sdk",
+          "checksums_sha256": "189ee549bef1c5d1d807e8a3c0f3584988d24315813769949d9fb7803b656803"
+        },
+        {
+          "component": "espressif__mdns",
+          "checksums_sha256": "560aa5e1348de7dfd9b8e010e418e4b128418dcff5677bb96c6e0578ad5fb942"
+        },
+        {
+          "component": "espressif__media_lib_sal",
+          "checksums_sha256": "7921d67b430b25ec8e836b840b20d1e822e203c4978d15ac458dca2bf4562906"
+        },
+        {
+          "component": "espressif__ramfs",
+          "checksums_sha256": "a26369c988fec1c153841da78edc5df669197596a5ff0521073b8104a11cf1a6"
+        },
+        {
+          "component": "espressif__zlib",
+          "checksums_sha256": "c60bfccc912496321ccf4096e323bf88ef860f8e0be7168778cd39c8cfc90aa9"
+        },
+        {
+          "component": "lvgl__lvgl",
+          "checksums_sha256": "f1f90c07506098e1c8080a66aacfdca026ad27b45711e2d39a448d2577537d86"
+        }
+      ],
+      "current_reference_snapshot": [
+        {
+          "component": "espressif__button",
+          "files": 30,
+          "canonical_tree_sha256_current_reference_snapshot": "a2c51161f3de23ccaf5002009df622b5c74725df36c1de097989efb16ce25dd8",
+          "checksums_sha256": "f8a8f70f0d2d8bc3070bebf292e063392d3f23700e1d94d33ae8be5e1187785e"
+        },
+        {
+          "component": "espressif__cjson",
+          "files": 234,
+          "canonical_tree_sha256_current_reference_snapshot": "976f5c037320fca9ad0943b85b27761ffadbe27475a9f01f2e1c4aff8fcd97af",
+          "checksums_sha256": "aa07cb0a25b584460b3dd4119384af41bbec0ddc49c0efa0cbd015cbb439f9d3"
+        },
+        {
+          "component": "espressif__cmake_utilities",
+          "files": 36,
+          "canonical_tree_sha256_current_reference_snapshot": "943b2a65d33f8f397c12cb82c235be624178a4f0ff6a0bf4dbfa55366c856fce",
+          "checksums_sha256": "8a8857db28aa1ed552b027319b6c4434c98dc01a6d92cb3004ad4d5a70a4003e"
+        },
+        {
+          "component": "espressif__esp-dsp",
+          "files": 497,
+          "canonical_tree_sha256_current_reference_snapshot": "e64c2c5ea20aca65169346d5e7fcc61dcda923a68724531ff67fa797f8be00fb",
+          "checksums_sha256": "d9d92efbfdbef4720609948959cd8e0b98546eb33fb077bcdfbe85d1e746d734"
+        },
+        {
+          "component": "espressif__esp_asrc",
+          "files": 56,
+          "canonical_tree_sha256_current_reference_snapshot": "be6b9a62fc78a2d64f5043bf51b3f119cd7ade4c219bbf7d1b5dd22df835707e",
+          "checksums_sha256": "bd6ff63ee18b0fee50d4bf1ab084cd85e4fb076cacb931e13d674c81dd786643"
+        },
+        {
+          "component": "espressif__esp_audio_codec",
+          "files": 98,
+          "canonical_tree_sha256_current_reference_snapshot": "db6411ada02820e0bb703af3337da39a5ac723fe52f274a5bf8adadbc8864773",
+          "checksums_sha256": "3d5015b429f7c3052b4d1d4fc5a76b78ba35fa67a4a0ec93ffdb5113f1526aeb"
+        },
+        {
+          "component": "espressif__esp_audio_effects",
+          "files": 121,
+          "canonical_tree_sha256_current_reference_snapshot": "87eed3589a4fba67bda7eabb065f90ac9d2a67ddd0bdab74cd70e245c7fb7da8",
+          "checksums_sha256": "7b615966f4a05005431cc308e7875e938172d96a0add328ae904967ab480cd47"
+        },
+        {
+          "component": "espressif__esp_audio_render",
+          "files": 66,
+          "canonical_tree_sha256_current_reference_snapshot": "d294983bbe2601bed0015b4c6d6e896f25836f05ee72b3104a4c60b95a7d7e84",
+          "checksums_sha256": "0dad2f559f3a315ea74b2277d0c479a8bfe6287b65b26771d16b2487907dd691"
+        },
+        {
+          "component": "espressif__esp_board_manager",
+          "files": 546,
+          "canonical_tree_sha256_current_reference_snapshot": "2f945de66335f0925ec0cd743d7605aa224795959039dce4c600d317ebf9601b",
+          "checksums_sha256": "59bed7a4556fecc8bcfaf38bd8a60f9b31126c220cccf65ec1b3882672f96213"
+        },
+        {
+          "component": "espressif__esp_boards",
+          "files": 72,
+          "canonical_tree_sha256_current_reference_snapshot": "8db993b3e245c9b67b56d4c3dbe68bb3db3cc173c5acf9c1e96beff315d3dc9b",
+          "checksums_sha256": "3188dabddf7150263168415eff4e71cd58886b8b085b9af8bef3831398e9ea9f"
+        },
+        {
+          "component": "espressif__esp_codec_dev",
+          "files": 99,
+          "canonical_tree_sha256_current_reference_snapshot": "7dabfc78a53660bfdd13a4289303332007c298d2376d9a2d1e9d094ac5b983ff",
+          "checksums_sha256": "549328c602f3b603de982cc2b64ff79b6ce595662af80fb458018ed7faffbf9c"
+        },
+        {
+          "component": "espressif__esp_extractor",
+          "files": 58,
+          "canonical_tree_sha256_current_reference_snapshot": "27d64003e66326138fd3dae9b72c482cac2a315e2fdd972c64dddb5a690c8451",
+          "checksums_sha256": "2d1ab9c4e98b285a54c682bc64f7b8246491b71c82d08871cc48e0181bca9060"
+        },
+        {
+          "component": "espressif__esp_hls_stream",
+          "files": 36,
+          "canonical_tree_sha256_current_reference_snapshot": "67f8dfcb7ae27f919339a022795b76ef6c887720da4b0a1945de0f19e965391a",
+          "checksums_sha256": "3bfee72cb86c47f7d613b6b5ac261a50def3cae558153d4d7a7c702c13767c28"
+        },
+        {
+          "component": "espressif__esp_lcd_touch",
+          "files": 9,
+          "canonical_tree_sha256_current_reference_snapshot": "16136c912f4cd909e9bd7ddee10c8e2fa0b0c5a8511aac96e76139b7100589f5",
+          "checksums_sha256": "761566314e032a5026c8fc71b6f7b4a483039b4622a4bb1fab13e9c59b63dea0"
+        },
+        {
+          "component": "espressif__esp_lv_decoder",
+          "files": 44,
+          "canonical_tree_sha256_current_reference_snapshot": "2e0cb0da6144e4102053ce7a4719644196154066f3d2babf56016c37a9000778",
+          "checksums_sha256": "2af3c3a6bd5df40c3d3ffa4d4304bd74e3ad338a03fe6aafb96cf4b7c642f7f6"
+        },
+        {
+          "component": "espressif__esp_lv_eaf_player",
+          "files": 27,
+          "canonical_tree_sha256_current_reference_snapshot": "d715cb9da1d1304056ab024dd6ffb184a4feefbe616e0ce4929645be821222ee",
+          "checksums_sha256": "7a6d842a5861c56df5f7f508fbe76bdff0859373a02ad4eeea3fccaf69c0400c"
+        },
+        {
+          "component": "espressif__esp_lv_fs",
+          "files": 20,
+          "canonical_tree_sha256_current_reference_snapshot": "d13e8bfb5671f38f2e78e6df5f3a2228045ff172b40c4441949c484d71f485da",
+          "checksums_sha256": "bb20a473ccd85d98306385e50c1f85b23241cdb6e0aec6d0efb68367c35c609a"
+        },
+        {
+          "component": "espressif__esp_lvgl_adapter",
+          "files": 108,
+          "canonical_tree_sha256_current_reference_snapshot": "3e750a1ae0fdb4ef50dad8e4db61c1809600d0e1cdee22c97d71e484ac54034f",
+          "checksums_sha256": "f63764c315911b7baa50101a118f19b090e26d4bfc991c0210bc1b93df4aedeb"
+        },
+        {
+          "component": "espressif__esp_mmap_assets",
+          "files": 31,
+          "canonical_tree_sha256_current_reference_snapshot": "5e9f515fd707b4a71c513bbc956d18c7d0322eef5e1824edf44f845bbbd5721b",
+          "checksums_sha256": "d4f3334c31b19f89cbbf845cce05a9495b00be3da0d660aca917adca0fbe0b17"
+        },
+        {
+          "component": "espressif__esp_muxer",
+          "files": 50,
+          "canonical_tree_sha256_current_reference_snapshot": "c898d45dea42a0548629775dc7139b4ba39e3d0a6d005ff1c92ade02c8416ce9",
+          "checksums_sha256": "0e497d778b23578202a52a9752c7f3a131fef8cb8775b52541a68bc7aa41c0b0"
+        },
+        {
+          "component": "espressif__esp_new_jpeg",
+          "files": 36,
+          "canonical_tree_sha256_current_reference_snapshot": "1dbf23362b0ef315479f192bba80cb310e1e7c7143d05ef6127649584a9d4d17",
+          "checksums_sha256": "9649b221fb75b1133223f008930db591df6d39b9247e183f102abecc985bbc68"
+        },
+        {
+          "component": "espressif__esp_player",
+          "files": 108,
+          "canonical_tree_sha256_current_reference_snapshot": "a6af979e1a1f2b809aa2f31b22a87ac78e4c2b3f89987a28e5f442a856e254d5",
+          "checksums_sha256": "ed145a90a931fe4e9d5c078814d1c0f9570cc15270ae773b78f74ddb59b3f2bd"
+        },
+        {
+          "component": "espressif__esp_websocket_client",
+          "files": 61,
+          "canonical_tree_sha256_current_reference_snapshot": "b5bcd9d3f97f3af446392ed39394db7fe6c5c5b68976cc93d9cd43f0c03a9c91",
+          "checksums_sha256": "4681e4473bc1ec0f2ca2fc1a0e2cffc5d846d82ee06c0b1b6e86ac9bff7b7b89"
+        },
+        {
+          "component": "espressif__freetype",
+          "files": 796,
+          "canonical_tree_sha256_current_reference_snapshot": "2aaae1e3fb56b1ff94e441abe8bfc8d1d829d35b37b44fa08dfc744008c298ff",
+          "checksums_sha256": "3cced6e457276890b467d9aa97da17ed0e41dd0bc7415fe6fde2f7dfcedece47"
+        },
+        {
+          "component": "espressif__gmf_audio",
+          "files": 48,
+          "canonical_tree_sha256_current_reference_snapshot": "f1eef5e873a00200ba951553885c62ee77c7035373050557f3361f504086ab80",
+          "checksums_sha256": "2373ef1eec67e6a991f436480c56ad1ba6c3dc8c2a80322e7d2cfcae881c38f5"
+        },
+        {
+          "component": "espressif__gmf_core",
+          "files": 119,
+          "canonical_tree_sha256_current_reference_snapshot": "0e268717ddfb3ae99fe7b317bcadbc1db177b8d8e9e827782fc07add433bbf9f",
+          "checksums_sha256": "7b0cd76a7be98f23809f22782dc7c75c12fda4120bf40522c765e96fa04b9c3c"
+        },
+        {
+          "component": "espressif__gmf_fft",
+          "files": 36,
+          "canonical_tree_sha256_current_reference_snapshot": "46bccc2d1a25eade7380e6bae557887c44d0cf3b2d5a124bade4bf0faed98b34",
+          "checksums_sha256": "f6ccc8a2fd5be23f3c12d23c6cf6291c597b76be83334ca74d52ed770e9b7196"
+        },
+        {
+          "component": "espressif__gmf_io",
+          "files": 22,
+          "canonical_tree_sha256_current_reference_snapshot": "388e9ea0afd1c2c055c12998c105b53106883082d0c88d2ea6a63ce1cb6ba1ac",
+          "checksums_sha256": "1795a587061f508537254b9f8c936fb62569307537fdca3d53b4b054fb62f82c"
+        },
+        {
+          "component": "espressif__i2c_bus",
+          "files": 20,
+          "canonical_tree_sha256_current_reference_snapshot": "4e20a677056d16322f7e1734e4307e4cd6b5dbce93b468d3aa378d64987b408c",
+          "checksums_sha256": "db273062f6dd093a73447939c31b6b7bacee67d472dd9c3e0a4e973ffbca7d58"
+        },
+        {
+          "component": "espressif__knob",
+          "files": 19,
+          "canonical_tree_sha256_current_reference_snapshot": "aa5aeb0222f693a9b334d93090cc29c750f2bedff21658534953053b7ff3a078",
+          "checksums_sha256": "e0d2c783d9ad1b94a03bbab3b1439ee18c824c906233aa8fb59ce3d3ded82a9a"
+        },
+        {
+          "component": "espressif__led_strip",
+          "files": 36,
+          "canonical_tree_sha256_current_reference_snapshot": "3da6292a392c42039b73435545baacd788101205065ffde6afe0adbcc7ccb4ef",
+          "checksums_sha256": "07f656ba34719dfedd4755272179d2cd0a240adb42afd326e90dfb423ab64ef5"
+        },
+        {
+          "component": "espressif__libpng",
+          "files": 627,
+          "canonical_tree_sha256_current_reference_snapshot": "2fb387a72ed284919765b22368eb96c69c9b8b97994700e01617cb1cac2c0718",
+          "checksums_sha256": "2b73808f8a774428bfb141cdb4f44107c06ebbee2a89f824d4228f803c6cd02e"
+        },
+        {
+          "component": "espressif__lua",
+          "files": 131,
+          "canonical_tree_sha256_current_reference_snapshot": "c372f3d3d7b16f0d4a46e16b91b200bb7049ad58a95c115ade04faa9eff50b86",
+          "checksums_sha256": "c048225667f894393d917aad600a4a0a597a7357125239f626ff5c5c9af59afc"
+        },
+        {
+          "component": "espressif__mcp-c-sdk",
+          "files": 63,
+          "canonical_tree_sha256_current_reference_snapshot": "074e71de7f11cea00a7d4c1963a0a3fc6f8aa1eaa26e9774115782ed5ce1913a",
+          "checksums_sha256": "189ee549bef1c5d1d807e8a3c0f3584988d24315813769949d9fb7803b656803"
+        },
+        {
+          "component": "espressif__mdns",
+          "files": 111,
+          "canonical_tree_sha256_current_reference_snapshot": "f5c1085fa4be94bd56f04071d127151802021f5b5efb0791b9f7acaf88011560",
+          "checksums_sha256": "560aa5e1348de7dfd9b8e010e418e4b128418dcff5677bb96c6e0578ad5fb942"
+        },
+        {
+          "component": "espressif__media_lib_sal",
+          "files": 48,
+          "canonical_tree_sha256_current_reference_snapshot": "803c350441d627d0acc6f1d4351fc1701970f8596ea06a9e014e8706a0ed75ee",
+          "checksums_sha256": "7921d67b430b25ec8e836b840b20d1e822e203c4978d15ac458dca2bf4562906"
+        },
+        {
+          "component": "espressif__ramfs",
+          "files": 23,
+          "canonical_tree_sha256_current_reference_snapshot": "1ae5998f83fc9f14b4c2a2757029bb2cdd88266f1eb498263128f302c85803e2",
+          "checksums_sha256": "a26369c988fec1c153841da78edc5df669197596a5ff0521073b8104a11cf1a6"
+        },
+        {
+          "component": "espressif__zlib",
+          "files": 268,
+          "canonical_tree_sha256_current_reference_snapshot": "a94a786261e55093821a43464031b82594d214942c0069d1352fd417e88542b5",
+          "checksums_sha256": "c60bfccc912496321ccf4096e323bf88ef860f8e0be7168778cd39c8cfc90aa9"
+        },
+        {
+          "component": "lvgl__lvgl",
+          "files": 4811,
+          "canonical_tree_sha256_current_reference_snapshot": "bba6b4007e355912d8555f662ff6d2b8ca37bc46368c85ae267b1d9d5ca5511f",
+          "checksums_sha256": "f1f90c07506098e1c8080a66aacfdca026ad27b45711e2d39a448d2577537d86"
+        }
+      ],
+      "snapshot_note": "Hash is a canonical digest of sorted relative file paths plus each file SHA-256, skipping .git paths; current local reference-tree snapshot, not contemporaneous run snapshot."
+    }
+  },
+  "component_cache": {
+    "disposable_copy": true,
+    "entry_snapshot_note": "Only the named CHECKSUMS.json file in each disposable run cache is identified; no complete cache-tree inventory is retained.",
+    "cache_checksum_files": [
+      {
+        "run": "runA",
+        "entry": "service_d92d8f1e",
+        "checksums_sha256": "3bfee72cb86c47f7d613b6b5ac261a50def3cae558153d4d7a7c702c13767c28"
+      },
+      {
+        "run": "runB",
+        "entry": "service_d92d8f1e",
+        "checksums_sha256": "3bfee72cb86c47f7d613b6b5ac261a50def3cae558153d4d7a7c702c13767c28"
+      }
+    ],
+    "note": "Only cached button source was independently verified as 28 files matching CHECKSUMS.json and lock hash 7cb7e2944b5828f409af0c92f7fcc0e2d405de09c3325b7ee4a0eba5fb28dfdc; no complete cache-tree manifest retained."
+  },
+  "metadata_fixture": {
+    "count": 57,
+    "files": [
+      {
+        "file": "espressif__button.json",
+        "bytes": 78025,
+        "sha256": "90c5cc5dff17a3a48e7894c7aa5fb4d61d3452ac7f0b9fe61385f5a351ec9633"
+      },
+      {
+        "file": "espressif__cjson.json",
+        "bytes": 4120,
+        "sha256": "432da8f85ec39541ef62948929da7731aced8fdc4fd494ed6ff582283be1a192"
+      },
+      {
+        "file": "espressif__cmake_utilities.json",
+        "bytes": 28675,
+        "sha256": "aaa1737cebb0f8feab8b87b416116e639afd2ca640ed67191d1df2b52b6cc4b0"
+      },
+      {
+        "file": "espressif__esp-dsp.json",
+        "bytes": 186155,
+        "sha256": "83aacd3d9822a4da38c3f2700823947d35aff63a8ef29b739147a449d80e4a0f"
+      },
+      {
+        "file": "espressif__esp_asrc.json",
+        "bytes": 7107,
+        "sha256": "b7dde34b8efcf863043e658481b0efe15ef08187d3d7721187e8b2156523ea8c"
+      },
+      {
+        "file": "espressif__esp_audio_codec.json",
+        "bytes": 25277,
+        "sha256": "ecaab57f49cb70aac8644e0c32be533597f505afa1c2e4a661231f85c705d952"
+      },
+      {
+        "file": "espressif__esp_audio_effects.json",
+        "bytes": 19748,
+        "sha256": "75fdf32ab7496eefd5d713409c3942e30906ea5fc74dde70c0605710be2376b1"
+      },
+      {
+        "file": "espressif__esp_audio_render.json",
+        "bytes": 30137,
+        "sha256": "d9263e4857dffbf7e016c94d7f4b18e5dc10a26a8d66b3cfe40e7fca59aeab1f"
+      },
+      {
+        "file": "espressif__esp_board_manager.json",
+        "bytes": 181988,
+        "sha256": "db0d16f4a1735a643df238aad6f01b9651c12b00c6dffd76e039192ea6f456f4"
+      },
+      {
+        "file": "espressif__esp_boards.json",
+        "bytes": 20383,
+        "sha256": "2b44bcd86ed7e14f5a27a67f5b3b4cfef04d7addd7f8693f6403538093da2cc3"
+      },
+      {
+        "file": "espressif__esp_cam_sensor.json",
+        "bytes": 82487,
+        "sha256": "9a64df67820712d8964da606b1cbdd16f578ee540d7ba7ecac4ad0f46778183c"
+      },
+      {
+        "file": "espressif__esp_codec_dev.json",
+        "bytes": 52254,
+        "sha256": "c10e176dc01a8952f80fe492d35c5b398c7ab6c6ed600ce9dfccabd5fa028820"
+      },
+      {
+        "file": "espressif__esp_extractor.json",
+        "bytes": 17080,
+        "sha256": "1e688db2f2bd59d189a7a0cd329a2cb61f5095ac2a00e3f5aa500dff400fcd13"
+      },
+      {
+        "file": "espressif__esp_h264.json",
+        "bytes": 33236,
+        "sha256": "4fbacc37a5d8eff46124477928e124a6e86458bdab62d3c0e90074ad6a10537f"
+      },
+      {
+        "file": "espressif__esp_hls_stream.json",
+        "bytes": 13588,
+        "sha256": "0672486726d92b6ad2d56b523a2b5780e0c7e45289e42ac89b9f5c5af9a2b55e"
+      },
+      {
+        "file": "espressif__esp_image_effects.json",
+        "bytes": 6509,
+        "sha256": "77ecbcfca8c616bf163394ad1bea5ecef515e83a1127b146227f48fcd95d1657"
+      },
+      {
+        "file": "espressif__esp_io_expander.json",
+        "bytes": 5624,
+        "sha256": "ad8f6e0919590506080a7fe172fd6a74fdac00b2ca2ba07b6ad45d5064fb60a8"
+      },
+      {
+        "file": "espressif__esp_ipa.json",
+        "bytes": 27838,
+        "sha256": "e33731972915ce762e877f0e033de3bee635e2a946fdec97b417ee131df0ec78"
+      },
+      {
+        "file": "espressif__esp_lcd_panel_io_additions.json",
+        "bytes": 6285,
+        "sha256": "9151e5d3ca24448cbff3b730d1637a8c611051f5f1dd9e9ea3f7231767099713"
+      },
+      {
+        "file": "espressif__esp_lcd_touch.json",
+        "bytes": 15744,
+        "sha256": "67f2ba4fa487dfa4eadca08da007e590e1a017c5781097fa671729033889ca64"
+      },
+      {
+        "file": "espressif__esp_lv_decoder.json",
+        "bytes": 32399,
+        "sha256": "5e6262196a0029fa7bcb22406d1273da7a7794a3c68ede7377549495f6fe814f"
+      },
+      {
+        "file": "espressif__esp_lv_eaf_player.json",
+        "bytes": 9440,
+        "sha256": "b6cd0bbb5cee66b7fa9b0aec4b6fafb91714c45669c485476d418aea47092bcd"
+      },
+      {
+        "file": "espressif__esp_lv_fs.json",
+        "bytes": 10694,
+        "sha256": "66f3da3bbc524af70eda8e3f36434230ac302dca2e8a3adc80802e13f20d4681"
+      },
+      {
+        "file": "espressif__esp_lvgl_adapter.json",
+        "bytes": 145387,
+        "sha256": "6385111e77d88bf00f25ca476173371a736905732ed9498610845ffd379eae43"
+      },
+      {
+        "file": "espressif__esp_lvgl_port.json",
+        "bytes": 86865,
+        "sha256": "e7c1e84e64312bb33542f262067b1dd284fceb439f4f7c9ae6d81af38499c1a2"
+      },
+      {
+        "file": "espressif__esp_mmap_assets.json",
+        "bytes": 22482,
+        "sha256": "034534d047066489b00c00c061b02c530553972cab5984f3c8151e9780c9467b"
+      },
+      {
+        "file": "espressif__esp_muxer.json",
+        "bytes": 14825,
+        "sha256": "57c7cb3f5124cb95e85e99152ef61a973510dbcc4ad6aac0f3fab5a66eff8e04"
+      },
+      {
+        "file": "espressif__esp_new_jpeg.json",
+        "bytes": 10177,
+        "sha256": "cad91fc8c798ea9488430391fae2cdb4089777274312647641bafe0201cc72a1"
+      },
+      {
+        "file": "espressif__esp_player.json",
+        "bytes": 53564,
+        "sha256": "a7d1f1086681420020f5a17de586b6c65001dff32b2534d84392d07814bc17ec"
+      },
+      {
+        "file": "espressif__esp_sccb_intf.json",
+        "bytes": 14768,
+        "sha256": "48cdbd801456dd79e6e30d60e4483d9f54bd07b580f8c1e31b4626ecdd3971be"
+      },
+      {
+        "file": "espressif__esp_video.json",
+        "bytes": 141153,
+        "sha256": "d208f5acc478e18debe48a5483d0c34099a4492ff0b61358fbbe815bdcbaa8d7"
+      },
+      {
+        "file": "espressif__esp_video_codec.json",
+        "bytes": 17013,
+        "sha256": "2cc1d3318a29512e9d9c0a0d223b8de4cd7f8e88f5bb964aa664a94fd7332d63"
+      },
+      {
+        "file": "espressif__esp_video_render.json",
+        "bytes": 24595,
+        "sha256": "5a60be39b86ec988c6217fe0dc67fcae4537283487c49555582bcf89ebc75812"
+      },
+      {
+        "file": "espressif__esp_websocket_client.json",
+        "bytes": 32871,
+        "sha256": "484834307269a0b14ccc43dc200cf8b8754dc03f47af09f62baa3dac9ce22191"
+      },
+      {
+        "file": "espressif__freetype.json",
+        "bytes": 16088,
+        "sha256": "21b4825474c20d4cc70fc529512f6f357a38fcd699eb448d1117bd59555e1fca"
+      },
+      {
+        "file": "espressif__gmf_audio.json",
+        "bytes": 31652,
+        "sha256": "cd6938c10ff181c915918f90206ccc93c47aa25b0c377248e37764af999ffd6f"
+      },
+      {
+        "file": "espressif__gmf_core.json",
+        "bytes": 33802,
+        "sha256": "dd34db95cd5d3f1fb9038305c9451cd279c018aff7c66c9b1ded94cfe91738ba"
+      },
+      {
+        "file": "espressif__gmf_fft.json",
+        "bytes": 6092,
+        "sha256": "1b16867b1fae8c4c0d9f13cbbb3f777861b0fcffa31db859571f10ab305fc566"
+      },
+      {
+        "file": "espressif__gmf_io.json",
+        "bytes": 34174,
+        "sha256": "5937d4f84a9e7696d2211a366e10788a8bbb8c1959e35f4118f9602c6c9dae20"
+      },
+      {
+        "file": "espressif__gmf_video.json",
+        "bytes": 39725,
+        "sha256": "ed131fc00d4cb87d2ea5e30a4ca9865d6e9bf4f7dfd7a442e8591163eed399bb"
+      },
+      {
+        "file": "espressif__i2c_bus.json",
+        "bytes": 19978,
+        "sha256": "1aa9a4f5580940e6485886b1f55d95a52b608bb42ccc4d90eab090376751059c"
+      },
+      {
+        "file": "espressif__knob.json",
+        "bytes": 20977,
+        "sha256": "5d4ac92854173257c2a6a61758b62b2054d79888c6d911c8da8163c1b1c57d64"
+      },
+      {
+        "file": "espressif__led_strip.json",
+        "bytes": 48904,
+        "sha256": "6ac34511fe9585e4133745917970527a47d88bfb5702f5b0edf9db4da83869a9"
+      },
+      {
+        "file": "espressif__libjpeg-turbo.json",
+        "bytes": 8792,
+        "sha256": "cf3236ba42cd74a6401b47e86178f3415fbb8d845f06e37687bc1b095eb5798e"
+      },
+      {
+        "file": "espressif__libpng.json",
+        "bytes": 17307,
+        "sha256": "fed04bfb4fc7daf617d199aed7b37ff5b2f373ad43bcc03d7afa48a6b3161bbe"
+      },
+      {
+        "file": "espressif__lua.json",
+        "bytes": 3572,
+        "sha256": "1c070edd47e35c5e473a02233872dc1a8837eade154e59e01a717b46ce5860d6"
+      },
+      {
+        "file": "espressif__lz4.json",
+        "bytes": 1913,
+        "sha256": "74b551967537419bff047749fa83b2760ae48d9c9b6268ba57491b13aa5ca09e"
+      },
+      {
+        "file": "espressif__mcp-c-sdk.json",
+        "bytes": 13454,
+        "sha256": "7ecdd4daec47a41157b05ffd2429d0b7c43bddec47a3ab8ef65de1c57424cf97"
+      },
+      {
+        "file": "espressif__mdns.json",
+        "bytes": 70679,
+        "sha256": "c0906293d95cf2fe435e2cf04705ac5b36a0c11e5f97eaaaaafc76a1aeb5c1d2"
+      },
+      {
+        "file": "espressif__media_lib_sal.json",
+        "bytes": 11059,
+        "sha256": "7aeba2bf76ed2fc84aaeeb4cdc27cf71415b17e0d7cfde228f0f1020062b2860"
+      },
+      {
+        "file": "espressif__ramfs.json",
+        "bytes": 1520,
+        "sha256": "4315d8fa31eaabb070665f8c5c5607acda24154e05a3446d00573931e7b76fd7"
+      },
+      {
+        "file": "espressif__usb.json",
+        "bytes": 17986,
+        "sha256": "1ad4a8d2a8b66e527a1ab31c7f87cb8c49a3698c5fbd4e36a7cf8019254288f1"
+      },
+      {
+        "file": "espressif__usb_host_uac.json",
+        "bytes": 18701,
+        "sha256": "db5e296a1a65aa962b3881416c621975a5f06693dda1878032096cdba8e50403"
+      },
+      {
+        "file": "espressif__usb_host_uvc.json",
+        "bytes": 45433,
+        "sha256": "304cc4c3f02e624013d870712bb14225b83eaa01050e4302f5ba06a646a4418f"
+      },
+      {
+        "file": "espressif__zlib.json",
+        "bytes": 8545,
+        "sha256": "d20c801da089d1d762c5c28823306384ff956387bf3938134bfae8312da38f95"
+      },
+      {
+        "file": "joltwallet__littlefs.json",
+        "bytes": 78020,
+        "sha256": "cd8a4398b705bfb3356753c35cdfac490113d99faa46793364b42524c1d40416"
+      },
+      {
+        "file": "lvgl__lvgl.json",
+        "bytes": 26251,
+        "sha256": "895d8231003ff0a0650b65e57a22a9c34ff180b15fda1a76ad49177393dca093"
+      }
+    ],
+    "public_registry_url_pattern": "https://components-file.espressif.com/components/{namespace}/{name}.json",
+    "requests_per_run": 86,
+    "archives_served": 0,
+    "hashes": "SHA-256 of exact fixture JSON bytes"
+  },
+  "results": [
+    {
+      "run": "runA",
+      "sdkconfig_sha256": "9c0d8e48c1e8239c9f42c2c8515fcc3ea2e587d25e11d15031008759b516c626",
+      "lock_sha256": "cd75effe29b3b9776bf5161d380f2f846ea000d42af79387176cd293edae272a",
+      "artifacts": {
+        "edge_agent.bin": {
+          "bytes": 3531792,
+          "sha256": "a602d5d4c6b414dd598a043e0211dfa85f6f73b2d65c434621c994ab2c51768a"
+        },
+        "system.bin": {
+          "bytes": 2662400,
+          "sha256": "25aebd3069efbca639b33833b2fd613eb435b5cf16187a4a1c2a7ca768fa3902"
+        },
+        "storage.bin": {
+          "bytes": 1703936,
+          "sha256": "99efcc2e9f216f5e0965c33049cf0ae00f641a546202d5d751d8e2f8b64040c0"
+        },
+        "bootloader/bootloader.bin": {
+          "bytes": 22272,
+          "sha256": "12a58cef80e11f85bf2cf315317250b529828dbbc82a76fd5ab721532517172f"
+        },
+        "partition_table/partition-table.bin": {
+          "bytes": 3072,
+          "sha256": "e1f04f61df72359d3f9c5db3eeab34277be796ea198052f33113639d21688427"
+        },
+        "ota_data_initial.bin": {
+          "bytes": 8192,
+          "sha256": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f"
+        }
+      },
+      "metadata_requests": 86
+    },
+    {
+      "run": "runB",
+      "sdkconfig_sha256": "9c0d8e48c1e8239c9f42c2c8515fcc3ea2e587d25e11d15031008759b516c626",
+      "lock_sha256": "fcb4ff67a46597349401377f02bd94e5713119507d418c68fe023a75e804d455",
+      "artifacts": {
+        "edge_agent.bin": {
+          "bytes": 3531792,
+          "sha256": "11f64428904083892e4a01fed9990e546cdd1329d9690c3526cd01ea91348c7a"
+        },
+        "system.bin": {
+          "bytes": 2662400,
+          "sha256": "48c2d5b2bfcb6e1620186fc7e4711ec3e067d9ed2276bbd0480aee20316c4a0c"
+        },
+        "storage.bin": {
+          "bytes": 1703936,
+          "sha256": "e7d24643b2bb2804bd1d28236e9c0574687f97d605c60a44c81958c55d6c10de"
+        },
+        "bootloader/bootloader.bin": {
+          "bytes": 22272,
+          "sha256": "d31f1c261f7ac620c661ee2bf4ae6aca78bc4e266b1a1be81a3a8219b3e1856d"
+        },
+        "partition_table/partition-table.bin": {
+          "bytes": 3072,
+          "sha256": "e1f04f61df72359d3f9c5db3eeab34277be796ea198052f33113639d21688427"
+        },
+        "ota_data_initial.bin": {
+          "bytes": 8192,
+          "sha256": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f"
+        }
+      },
+      "metadata_requests": 86
+    }
+  ]
+}
