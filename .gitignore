@@ -48,3 +48,14 @@ pages/simulator/dist
 pages/simulator/*.log
 pages/simulator/public/runtime/*
 !pages/simulator/public/runtime/.gitkeep
+.lat-build
+
+# Modified for epsbotik: local references, private context, and sessions
+/sources/
+/.local-context/
+/blueprint/
+/--session/
+/.pi/
+/node_modules/
+.env.*
+!.env.example

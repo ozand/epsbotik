@@ -1,0 +1,30 @@
+name: epsbotik repository checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  knowledge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned Lat development tool
+        run: npm install -g lat.md@0.13.3
+      - name: Check repository contract
+        run: python3 tools/epsbotik/check_project.py
+      - name: Validate knowledge graph
+        run: lat check
